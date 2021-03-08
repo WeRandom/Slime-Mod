@@ -1,8 +1,8 @@
 HELLO!!!
-This is a mod a friend gave me an idea for, all credit for the idea goes to that friend. This mod adds new stuff for one underrated mc thing, slime. For the rules and for help installing forge continue reading, if not well, Hope you enjoy.
+This is a mod a friend gave me an idea for, all credit for the idea goes to that friend (their discord ---> BedPool#7561). This mod adds new stuff for one underrated mc thing, slime. For the rules and for help installing forge continue reading, if not well, Hope you enjoy.
 
 
-
+My discord ---> Shadow.#8243
 
 
 My two and only rules --- DONT SAY THAT THIS IS YOUR MOD.
