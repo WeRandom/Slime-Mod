@@ -15,14 +15,14 @@ displayName="The Slime Mod" #mandatory
 
 logoFile="examplemod.png" #optional
 
-credits="Thanks for this mod goes to Cy4's Tutorials for the well... tutorials. And to a friend for the idea." #optional
+credits="Thanks for this mod goes to Cy4's Tutorials for the well... tutorials. And to a friend (BedPool#7561 <--- discord for that friend) for the idea." #optional
 
 authors="_Shadow_" #optional
 
 description='''
-A little test mod for me to.... well test.
-Github repository ---> not made yet
-
+A mod to add more for an underrated thing in minecraft, slime.
+Github repository ---> https://github.com/WeRandom/Slime-Mod.git
+My discord ---> Shadow.#8243
 Rules for usage ---> as long as you don't call this mod your own you're good. ---> any addons to this mod or any ports (backports and other ports) and fixes to the mod you have to CREDIT AND LINK my mod.
 '''
 
