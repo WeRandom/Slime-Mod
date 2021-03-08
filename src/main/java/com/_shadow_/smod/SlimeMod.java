@@ -1,6 +1,7 @@
 package com._shadow_.smod;
 
 import com._shadow_.smod.core.init.BlockInit;
+import com._shadow_.smod.core.init.FeatureInit;
 import com._shadow_.smod.core.init.ItemInit;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -9,6 +10,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.InterModComms;
@@ -39,7 +41,9 @@ public class SlimeMod
         BlockInit.BLOCKS.register(bus);
         ItemInit.ITEMS.register(bus);
 
+        MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, FeatureInit::addOres);
         MinecraftForge.EVENT_BUS.register(this);
+
     }
     @SubscribeEvent
     public static void onRegisterItems(final RegistryEvent.Register<Item> event) {
