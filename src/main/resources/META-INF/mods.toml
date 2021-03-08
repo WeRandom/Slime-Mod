@@ -1,0 +1,47 @@
+
+modLoader="javafml" #mandatory
+
+loaderVersion="[36,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+
+license="MIT"
+
+[[mods]] #mandatory
+
+modId="smod" #mandatory
+
+version="1.16.5-1.0.0" #mandatory
+
+displayName="The Slime Mod" #mandatory
+
+logoFile="examplemod.png" #optional
+
+credits="Thanks for this mod goes to Cy4's Tutorials for the well... tutorials. And to a friend for the idea." #optional
+
+authors="_Shadow_" #optional
+
+description='''
+A little test mod for me to.... well test.
+Github repository ---> not made yet
+
+Rules for usage ---> as long as you don't call this mod your own you're good. ---> any addons to this mod or any ports (backports and other ports) and fixes to the mod you have to CREDIT AND LINK my mod.
+'''
+
+[[dependencies.examplemod]] #optional
+
+    modId="forge" #mandatory
+
+    mandatory=true #mandatory
+
+    versionRange="[36,)" #mandatory
+
+    ordering="NONE"
+
+    side="BOTH"
+
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
